@@ -10,6 +10,6 @@ export default async function redirect(request: NextRequest) {
 
     return NextResponse.json({
         status: "success",
-        
+        shortenedLink
     })
 }
